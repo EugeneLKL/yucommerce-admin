@@ -74,7 +74,7 @@ export async function PATCH(
 
     return NextResponse.json(billboard);
   } catch (error) {
-    console.log("[BILLBOARDS_PATCH]", error);
+    console.log("[BILLBOARD_PATCH]", error);
     return new NextResponse("Internal error", { status: 500 });
   }
 }
