@@ -1,2 +1,2 @@
 # YuCommerce
-YuCommerce E-Commerce Website
+YuCommerce E-Commerce Website (Admin)
