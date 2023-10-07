@@ -70,7 +70,7 @@ export const ColorForm: React.FC<ColorFormProps> = ({
       router.push(`/${params.storeId}/colors`);
       toast.success(toastMessage);
     } catch (error: any) {
-      toast.error('Something went wrong.');
+      toast.error('Failed to submit color.');
     } finally {
       setLoading(false);
     }

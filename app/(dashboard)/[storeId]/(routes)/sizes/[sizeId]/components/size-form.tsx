@@ -68,7 +68,7 @@ export const SizeForm: React.FC<SizeFormProps> = ({
       router.push(`/${params.storeId}/sizes`);
       toast.success(toastMessage);
     } catch (error: any) {
-      toast.error('Something went wrong.');
+      toast.error('Failed to submit size.');
     } finally {
       setLoading(false);
     }
